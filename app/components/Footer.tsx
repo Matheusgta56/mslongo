@@ -1,5 +1,9 @@
 import { Kaushan_Script } from "next/font/google"
 
+const kaushan = Kaushan_Script({
+    subsets: ['latin'],
+    weight: '400'
+})
 
 
 export default function Footer() {
