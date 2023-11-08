@@ -7,9 +7,9 @@ export default function NewCourse() {
         <div>
             <h1>Cadastrar Curso</h1>
             <form>
-                <input  type="text" name="title" placeholder="Digite o Título do Curso"/>
-                <input  type="text" name="descritpion" placeholder="Digite a Descrição do Curso"/>
-                <input  type="text" name="url" placeholder="Digite a URL do Curso"/>
+                <input  type="text" name="title" placeholder="Digite o Título do Curso"/><br></br>
+                <input  type="text" name="descritpion" placeholder="Digite a Descrição do Curso"/><br></br>
+                <input  type="text" name="url" placeholder="Digite a URL do Curso"/><br></br>
                 <button formAction={saveCourses}>Salvar</button>
             </form>
         </div>
